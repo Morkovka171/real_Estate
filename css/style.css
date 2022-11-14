@@ -54,11 +54,16 @@ body {
 .title{
 	font-weight: 600;
 	font-size: 40px;
-	line-height: 55px;
+	line-height: 1.375;
 	color: #000000;
 }
 .title_center{
 	text-align: center;
+}
+@media (max-width: 767.98px) {
+	.title{
+		font-size: 30px;
+	}
 }
 /*?------------------------------- */
 .page{
@@ -147,7 +152,6 @@ body {
 
 .main-block {
 	padding-bottom: 110px;
-	
 }
 .main-block__container {
 	padding-top: 183px;
@@ -326,6 +330,11 @@ body {
 		padding-right: 0px;
 	}
 }
+@media (max-width: 990.98px) {
+	.main-block {
+		padding-bottom: 70px;
+	}
+}
 @media (max-width: 767.98px) {
 	.partners-main-block__items {
 		justify-content: center;
@@ -339,6 +348,9 @@ body {
 	}
 	.form-main-block__button {
 		width: 100%;
+	}
+	.main-block {
+		padding-bottom: 30px;
 	}
 }
 @media (max-width: 479.98px) {
